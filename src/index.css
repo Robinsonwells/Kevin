@@ -4,6 +4,8 @@
 
 @layer utilities {
   .animate-signature {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
     animation: draw-signature 2s ease-out forwards;
   }
 }
