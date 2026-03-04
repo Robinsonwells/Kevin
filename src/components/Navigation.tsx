@@ -18,7 +18,10 @@ function Navigation() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Building2 className="w-6 h-6 sm:w-8 sm:h-8 text-black" />
-            <span className="text-xl sm:text-2xl font-light tracking-wide">Kevin Moore</span>
+            <div className="flex flex-col">
+              <span className="text-lg sm:text-xl font-semibold tracking-wide">Kevin Moore</span>
+              <span className="text-xs sm:text-sm font-light text-gray-600">Real Estate</span>
+            </div>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
