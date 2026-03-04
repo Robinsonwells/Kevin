@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import Spline from '@splinetool/react-spline';
 
 function App() {
   const [blackSectionOpacity, setBlackSectionOpacity] = useState(0);
@@ -34,11 +35,7 @@ function App() {
     <div className="bg-white">
       {/* Spline Hero Section */}
       <div className="w-full h-screen relative">
-        <iframe
-          src="https://prod.spline.design/60Kcp3NeoO9iBOiT/scene.splinecode"
-          className="w-full h-full border-0"
-          title="Spline 3D Scene"
-        />
+        <Spline scene="https://prod.spline.design/60Kcp3NeoO9iBOiT/scene.splinecode" />
       </div>
 
       {/* Black Section with Animated Signature */}
