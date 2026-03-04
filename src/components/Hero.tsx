@@ -24,8 +24,6 @@ function Hero() {
         <spline-viewer url="https://prod.spline.design/Vtn6U5bQ-dLqm6m9/scene.splinecode" />
       </div>
 
-      <div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent via-transparent to-black/40" />
-
       <div className="relative z-20 h-full flex flex-col items-center justify-center text-white px-6">
         <h1 className="text-6xl md:text-8xl font-light tracking-wide text-center mb-6 drop-shadow-2xl">
           Discover Your Dream Home
