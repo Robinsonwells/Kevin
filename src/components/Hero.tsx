@@ -25,9 +25,12 @@ function Hero() {
       </div>
 
       <div className="relative z-20 h-full flex flex-col items-center justify-center text-white px-6">
-        <h1 className="text-6xl md:text-8xl font-light tracking-wide text-center mb-6 drop-shadow-2xl">
-          I Will Solve Your Real Estate Problems
+        <h1 className="text-6xl md:text-8xl font-light tracking-wide text-center mb-3 drop-shadow-2xl">
+          Are You A Ship Lost At Sea
         </h1>
+        <p className="text-xl md:text-2xl font-light tracking-wide text-center mb-6 drop-shadow-lg opacity-90">
+          I will guide you through your real estate problems
+        </p>
         <div className="flex justify-center mt-4">
           <svg
             width="813.467"
