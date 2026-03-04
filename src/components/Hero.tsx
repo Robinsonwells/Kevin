@@ -26,17 +26,8 @@ function Hero() {
 
       <div className="relative z-20 h-full flex flex-col items-center justify-center text-white px-6">
         <h1 className="text-6xl md:text-8xl font-light tracking-wide text-center mb-6 drop-shadow-2xl">
-          Discover Your Dream Home
+          I Will Solve Your Real Estate Problems
         </h1>
-        <p className="text-xl md:text-2xl text-center max-w-2xl mb-12 drop-shadow-lg">
-          Luxury properties curated for discerning buyers
-        </p>
-        <button
-          onClick={scrollToProperties}
-          className="bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-lg text-lg font-medium transition-all transform hover:scale-105 shadow-xl"
-        >
-          Explore Properties
-        </button>
       </div>
 
       <button

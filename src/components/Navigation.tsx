@@ -1,4 +1,4 @@
-import { Home, Building2, User, Mail } from 'lucide-react';
+import { Home, Building2, MessageSquare, Mail } from 'lucide-react';
 
 function Navigation() {
   const scrollToSection = (id: string) => {
@@ -14,7 +14,7 @@ function Navigation() {
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2">
             <Building2 className="w-8 h-8 text-black" />
-            <span className="text-2xl font-light tracking-wide">Elite Estates</span>
+            <span className="text-2xl font-light tracking-wide">Kevin Moore</span>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -26,18 +26,18 @@ function Navigation() {
               <span>Home</span>
             </button>
             <button
+              onClick={() => scrollToSection('testimonials')}
+              className="flex items-center space-x-2 text-gray-700 hover:text-black transition-colors"
+            >
+              <MessageSquare className="w-4 h-4" />
+              <span>Testimonials</span>
+            </button>
+            <button
               onClick={() => scrollToSection('properties')}
               className="flex items-center space-x-2 text-gray-700 hover:text-black transition-colors"
             >
               <Building2 className="w-4 h-4" />
               <span>Properties</span>
-            </button>
-            <button
-              onClick={() => scrollToSection('about')}
-              className="flex items-center space-x-2 text-gray-700 hover:text-black transition-colors"
-            >
-              <User className="w-4 h-4" />
-              <span>About</span>
             </button>
             <button
               onClick={() => scrollToSection('contact')}

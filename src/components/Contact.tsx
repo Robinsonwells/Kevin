@@ -43,7 +43,7 @@ function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">+1 (555) 867-5309</p>
                   </div>
                 </div>
 
@@ -53,7 +53,7 @@ function Contact() {
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
-                    <p className="text-gray-600">contact@eliteestates.com</p>
+                    <p className="text-gray-600">kevin.moore@realestate.com</p>
                   </div>
                 </div>
 
@@ -64,8 +64,8 @@ function Contact() {
                   <div>
                     <h4 className="font-semibold mb-1">Office</h4>
                     <p className="text-gray-600">
-                      123 Luxury Lane<br />
-                      Beverly Hills, CA 90210
+                      456 Market Street<br />
+                      San Francisco, CA 94102
                     </p>
                   </div>
                 </div>
@@ -167,7 +167,7 @@ function Contact() {
       </div>
 
       <footer className="mt-24 pt-12 border-t border-gray-200 text-center text-gray-600">
-        <p>&copy; 2026 Elite Estates. All rights reserved.</p>
+        <p>&copy; 2026 Kevin Moore Real Estate. All rights reserved.</p>
         <div className="mt-8 flex justify-center">
           <svg
             width="813.467"

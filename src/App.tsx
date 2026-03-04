@@ -2,7 +2,7 @@ import { useEffect } from 'react';
 import Hero from './components/Hero';
 import Navigation from './components/Navigation';
 import FeaturedProperties from './components/FeaturedProperties';
-import About from './components/About';
+import Testimonials from './components/Testimonials';
 import Contact from './components/Contact';
 
 function App() {
@@ -21,8 +21,8 @@ function App() {
     <div className="bg-white">
       <Navigation />
       <Hero />
+      <Testimonials />
       <FeaturedProperties />
-      <About />
       <Contact />
     </div>
   );
