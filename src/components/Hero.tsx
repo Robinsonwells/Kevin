@@ -21,7 +21,7 @@ function Hero() {
   return (
     <section id="hero" className="relative w-full h-screen overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <spline-viewer url="https://prod.spline.design/Vtn6U5bQ-dLqm6m9/scene.splinecode" />
+        <spline-viewer url="https://prod.spline.design/8pmVBVeVnC8O6Sq5/scene.splinecode" />
       </div>
 
       <div className="relative z-20 h-full flex flex-col items-center justify-center text-white px-6">
