@@ -34,8 +34,11 @@ function App() {
   return (
     <div className="bg-white">
       {/* Spline Hero Section */}
-      <div className="w-full h-screen relative">
-        <Spline scene="https://prod.spline.design/60Kcp3NeoO9iBOiT/scene.splinecode" />
+      <div className="w-full h-screen relative bg-gradient-to-br from-slate-50 to-slate-100">
+        <Spline
+          scene="https://prod.spline.design/60Kcp3NeoO9iBOiT/scene.splinecode"
+          style={{ width: '100%', height: '100%' }}
+        />
       </div>
 
       {/* Black Section with Animated Signature */}
