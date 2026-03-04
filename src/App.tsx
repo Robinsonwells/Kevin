@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import Spline from '@splinetool/react-spline';
+import Spline from '@splinetool/react-spline/next';
 
 function App() {
   const [blackSectionOpacity, setBlackSectionOpacity] = useState(0);
@@ -13,12 +13,10 @@ function App() {
       const rect = blackSectionRef.current.getBoundingClientRect();
       const windowHeight = window.innerHeight;
 
-      // Calculate opacity based on how much the section is in view
       if (rect.top < windowHeight) {
         const visibleAmount = Math.min(1, (windowHeight - rect.top) / (windowHeight * 0.5));
         setBlackSectionOpacity(visibleAmount);
 
-        // Trigger signature animation when section is 30% visible
         if (visibleAmount > 0.3 && !showSignature) {
           setShowSignature(true);
         }
@@ -26,18 +24,18 @@ function App() {
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll(); // Check initial position
+    handleScroll();
 
     return () => window.removeEventListener('scroll', handleScroll);
   }, [showSignature]);
 
   return (
     <div className="bg-white">
-      {/* Spline Hero Section */}
-      <div className="w-full h-screen relative bg-gradient-to-br from-slate-50 to-slate-100">
+      <div className="w-full h-screen relative bg-gradient-to-br from-slate-50 to-slate-100 flex items-center justify-center">
         <Spline
           scene="https://prod.spline.design/mackbookmockupanimationwithframertutorial-4iHJ2dwVB5eNMSauViwIZjO8/scene.splinecode"
-          style={{ width: '100%', height: '100%' }}
+          width={2167}
+          height={2317}
         />
       </div>
 
