@@ -22,16 +22,16 @@ function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-light mb-4">Get In Touch</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+    <section id="contact" className="py-16 sm:py-20 md:py-24 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-light mb-4">Get In Touch</h2>
+          <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
             Ready to find your dream home? Let's start the conversation
           </p>
         </div>
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-8 sm:gap-12">
           <div>
             <div className="bg-white rounded-2xl p-8 shadow-lg mb-8">
               <h3 className="text-2xl font-light mb-6">Contact Information</h3>
@@ -166,14 +166,14 @@ function Contact() {
         </div>
       </div>
 
-      <footer className="mt-24 pt-12 border-t border-gray-200 text-center text-gray-600">
-        <p>&copy; 2026 Kevin Moore Real Estate. All rights reserved.</p>
+      <footer className="mt-16 sm:mt-20 md:mt-24 pt-12 border-t border-gray-200 text-center text-gray-600">
+        <p className="text-sm sm:text-base">&copy; 2026 Kevin Moore Real Estate. All rights reserved.</p>
         <div className="mt-8 flex justify-center">
           <svg
             width="813.467"
             height="105.851"
             viewBox="188.110 256.806 813.467 105.851"
-            className="h-16 w-auto opacity-30"
+            className="h-10 sm:h-12 md:h-16 w-auto opacity-30"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g id="canvas-strokes">

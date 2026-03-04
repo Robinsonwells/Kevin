@@ -27,11 +27,11 @@ function Hero() {
         />
       </div>
 
-      <div className="relative z-20 h-full flex flex-col items-center justify-center text-white px-6 pointer-events-none">
-        <h1 className="text-6xl md:text-8xl font-light tracking-wide text-center mb-3 drop-shadow-2xl">
+      <div className="relative z-20 h-full flex flex-col items-center justify-center text-white px-4 sm:px-6 pointer-events-none">
+        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-8xl font-light tracking-wide text-center mb-3 drop-shadow-2xl">
           Are You A Ship Lost At Sea
         </h1>
-        <p className="text-xl md:text-2xl font-light tracking-wide text-center mb-6 drop-shadow-lg opacity-90">
+        <p className="text-lg sm:text-xl md:text-2xl font-light tracking-wide text-center mb-6 drop-shadow-lg opacity-90 max-w-3xl">
           I will guide you through your real estate problems
         </p>
         <div className="flex justify-center mt-4">
@@ -39,7 +39,7 @@ function Hero() {
             width="813.467"
             height="105.851"
             viewBox="188.110 256.806 813.467 105.851"
-            className="h-20 w-auto opacity-80 drop-shadow-2xl"
+            className="h-12 sm:h-16 md:h-20 w-auto opacity-80 drop-shadow-2xl"
             xmlns="http://www.w3.org/2000/svg"
           >
             <g id="canvas-strokes">
@@ -66,8 +66,9 @@ function Hero() {
       <button
         onClick={scrollToProperties}
         className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 text-white animate-bounce pointer-events-auto"
+        aria-label="Scroll to properties"
       >
-        <ChevronDown className="w-12 h-12" />
+        <ChevronDown className="w-10 h-10 sm:w-12 sm:h-12" />
       </button>
     </section>
   );

@@ -23,16 +23,16 @@ function Testimonials() {
   ];
 
   return (
-    <section id="testimonials" className="py-24 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-5xl font-light mb-4">Client Success Stories</h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+    <section id="testimonials" className="py-16 sm:py-20 md:py-24 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6">
+        <div className="text-center mb-12 sm:mb-16">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-light mb-4">Client Success Stories</h2>
+          <p className="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
             Hear from clients who trusted Kevin Moore with their real estate journey
           </p>
         </div>
 
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-6 sm:gap-8">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
