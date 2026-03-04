@@ -23,8 +23,8 @@ function About() {
 
             <div className="grid grid-cols-2 gap-6 mb-8">
               <div className="flex items-start space-x-4">
-                <div className="bg-amber-100 p-3 rounded-lg">
-                  <Award className="w-6 h-6 text-amber-600" />
+                <div className="bg-gray-100 p-3 rounded-lg">
+                  <Award className="w-6 h-6 text-black" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-1">Top Producer</h3>
@@ -33,8 +33,8 @@ function About() {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="bg-amber-100 p-3 rounded-lg">
-                  <TrendingUp className="w-6 h-6 text-amber-600" />
+                <div className="bg-gray-100 p-3 rounded-lg">
+                  <TrendingUp className="w-6 h-6 text-black" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-1">$500M+ Sales</h3>
@@ -43,8 +43,8 @@ function About() {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="bg-amber-100 p-3 rounded-lg">
-                  <Users className="w-6 h-6 text-amber-600" />
+                <div className="bg-gray-100 p-3 rounded-lg">
+                  <Users className="w-6 h-6 text-black" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-1">500+ Clients</h3>
@@ -53,8 +53,8 @@ function About() {
               </div>
 
               <div className="flex items-start space-x-4">
-                <div className="bg-amber-100 p-3 rounded-lg">
-                  <Heart className="w-6 h-6 text-amber-600" />
+                <div className="bg-gray-100 p-3 rounded-lg">
+                  <Heart className="w-6 h-6 text-black" />
                 </div>
                 <div>
                   <h3 className="font-semibold text-lg mb-1">Client First</h3>
@@ -63,7 +63,7 @@ function About() {
               </div>
             </div>
 
-            <button className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-lg text-lg font-medium transition-colors">
+            <button className="bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-lg text-lg font-medium transition-colors">
               Schedule a Consultation
             </button>
           </div>

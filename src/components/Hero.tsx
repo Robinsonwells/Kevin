@@ -33,7 +33,7 @@ function Hero() {
         </p>
         <button
           onClick={scrollToProperties}
-          className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-4 rounded-lg text-lg font-medium transition-all transform hover:scale-105 shadow-xl"
+          className="bg-black hover:bg-gray-800 text-white px-8 py-4 rounded-lg text-lg font-medium transition-all transform hover:scale-105 shadow-xl"
         >
           Explore Properties
         </button>

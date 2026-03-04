@@ -38,8 +38,8 @@ function Contact() {
 
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
-                  <div className="bg-amber-100 p-3 rounded-lg">
-                    <Phone className="w-6 h-6 text-amber-600" />
+                  <div className="bg-gray-100 p-3 rounded-lg">
+                    <Phone className="w-6 h-6 text-black" />
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Phone</h4>
@@ -48,8 +48,8 @@ function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-amber-100 p-3 rounded-lg">
-                    <Mail className="w-6 h-6 text-amber-600" />
+                  <div className="bg-gray-100 p-3 rounded-lg">
+                    <Mail className="w-6 h-6 text-black" />
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Email</h4>
@@ -58,8 +58,8 @@ function Contact() {
                 </div>
 
                 <div className="flex items-start space-x-4">
-                  <div className="bg-amber-100 p-3 rounded-lg">
-                    <MapPin className="w-6 h-6 text-amber-600" />
+                  <div className="bg-gray-100 p-3 rounded-lg">
+                    <MapPin className="w-6 h-6 text-black" />
                   </div>
                   <div>
                     <h4 className="font-semibold mb-1">Office</h4>
@@ -72,7 +72,7 @@ function Contact() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-br from-amber-600 to-amber-700 rounded-2xl p-8 text-white">
+            <div className="bg-gradient-to-br from-gray-900 to-black rounded-2xl p-8 text-white">
               <h3 className="text-2xl font-light mb-4">Office Hours</h3>
               <div className="space-y-2">
                 <p className="flex justify-between">
@@ -104,7 +104,7 @@ function Contact() {
                   name="name"
                   value={formData.name}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent outline-none transition-all"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent outline-none transition-all"
                   required
                 />
               </div>
@@ -119,7 +119,7 @@ function Contact() {
                   name="email"
                   value={formData.email}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent outline-none transition-all"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent outline-none transition-all"
                   required
                 />
               </div>
@@ -134,7 +134,7 @@ function Contact() {
                   name="phone"
                   value={formData.phone}
                   onChange={handleChange}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent outline-none transition-all"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent outline-none transition-all"
                   required
                 />
               </div>
@@ -149,14 +149,14 @@ function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                   rows={5}
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-amber-600 focus:border-transparent outline-none transition-all resize-none"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-black focus:border-transparent outline-none transition-all resize-none"
                   required
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full bg-amber-600 hover:bg-amber-700 text-white py-4 rounded-lg font-medium transition-colors flex items-center justify-center space-x-2"
+                className="w-full bg-black hover:bg-gray-800 text-white py-4 rounded-lg font-medium transition-colors flex items-center justify-center space-x-2"
               >
                 <span>Send Message</span>
                 <Send className="w-5 h-5" />
