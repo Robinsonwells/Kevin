@@ -20,11 +20,14 @@ function Hero() {
 
   return (
     <section id="hero" className="relative w-full h-screen overflow-hidden">
-      <div className="absolute inset-0 z-0">
-        <spline-viewer url="https://prod.spline.design/8pmVBVeVnC8O6Sq5/scene.splinecode" />
+      <div className="absolute inset-0 z-0 pointer-events-auto">
+        <spline-viewer
+          url="https://prod.spline.design/8pmVBVeVnC8O6Sq5/scene.splinecode"
+          style={{ width: '100%', height: '100%' }}
+        />
       </div>
 
-      <div className="relative z-20 h-full flex flex-col items-center justify-center text-white px-6">
+      <div className="relative z-20 h-full flex flex-col items-center justify-center text-white px-6 pointer-events-none">
         <h1 className="text-6xl md:text-8xl font-light tracking-wide text-center mb-3 drop-shadow-2xl">
           Are You A Ship Lost At Sea
         </h1>
@@ -62,7 +65,7 @@ function Hero() {
 
       <button
         onClick={scrollToProperties}
-        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 text-white animate-bounce"
+        className="absolute bottom-8 left-1/2 transform -translate-x-1/2 z-20 text-white animate-bounce pointer-events-auto"
       >
         <ChevronDown className="w-12 h-12" />
       </button>
