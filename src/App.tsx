@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import Spline from '@splinetool/react-spline/next';
+import Spline from '@splinetool/react-spline';
 
 function App() {
   const [blackSectionOpacity, setBlackSectionOpacity] = useState(0);
@@ -31,11 +31,9 @@ function App() {
 
   return (
     <div className="bg-white">
-      <div className="w-full h-screen relative bg-gradient-to-br from-slate-50 to-slate-100 flex items-center justify-center">
+      <div className="w-full h-screen relative bg-gradient-to-br from-slate-50 to-slate-100">
         <Spline
-          scene="https://prod.spline.design/mackbookmockupanimationwithframertutorial-4iHJ2dwVB5eNMSauViwIZjO8/scene.splinecode"
-          width={2167}
-          height={2317}
+          scene="https://prod.spline.design/60Kcp3NeoO9iBOiT/scene.splinecode"
         />
       </div>
 
