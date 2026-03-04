@@ -36,7 +36,7 @@ function App() {
       {/* Spline Hero Section */}
       <div className="w-full h-screen relative bg-gradient-to-br from-slate-50 to-slate-100">
         <Spline
-          scene="https://prod.spline.design/60Kcp3NeoO9iBOiT/scene.splinecode"
+          scene="https://prod.spline.design/mackbookmockupanimationwithframertutorial-4iHJ2dwVB5eNMSauViwIZjO8/scene.splinecode"
           style={{ width: '100%', height: '100%' }}
         />
       </div>
